@@ -13,7 +13,7 @@ h=root.winfo_screenheight()
 root.geometry('1000x600')
 root.config(bg='black')
 
-bg_img=Image.open('ai.png')
+bg_img=Image.open('backg.png')
 bg_img=bg_img.resize((w,h))
 img=ImageTk.PhotoImage(bg_img)
 bg=Canvas(root, width=w, height=h)
